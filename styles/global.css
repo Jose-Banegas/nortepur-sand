@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+ul {
+	*padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.svg {
+	
+}
+
+

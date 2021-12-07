@@ -1,0 +1,91 @@
+
+/* Mobile */
+
+.h2-ventajas {
+	color: black;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 28px;
+	font-weight: 700;
+
+
+}
+
+.h2-ventajas span {
+	font-weight: 400;
+	font-size: 20px;
+		text-decoration: underline #FBF117;
+	text-decoration-thickness: 3px;
+}
+
+.grid-container-ventajas {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box-ventajas {
+	background-color: #00913C;
+	font-size: 20px;
+	padding: 20px;
+	margin: 25px 0;
+	border-radius: 25px;
+	display: flex;
+
+	
+}
+
+.box-ventajas p {
+	color: white;
+	margin: auto;
+}
+
+/* Desktop */
+
+@media(min-width: 1024px) {
+
+
+	@keyframes asomo {
+  from {left: -90px}
+  to {left:  0}
+}
+
+	.grid-container-ventanas {
+		margin: 80%;
+	}
+
+	.container-h2-ventajas {
+
+		animation-name: "asomo";
+		animation-duration: 5s;
+		background-color: #FBF117;
+		margin: 40px 0 0; 
+		border-radius: 0 30px 30px 0;
+		width: 60%;
+	}
+	.h2-ventajas {
+		font-size: 68px;
+	}
+	.h2-ventajas span{
+		font-size: 50px;
+
+	}
+	.grid-ventajas {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 70px;
+		margin-bottom: 20px;
+	}
+
+	.box-ventajas {
+		background-color: white;
+		border: solid 3px;
+		border-color: #00913C;
+		padding: 30px;
+	}
+
+	.box-ventajas p {
+		color: black;
+		font-size: 30px;
+	}
+
+}

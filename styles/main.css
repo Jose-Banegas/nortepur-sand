@@ -1,0 +1,316 @@
+/* mobile */
+
+.main-superior {
+	
+position: relative;	
+
+}
+
+	.main-superior video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -1;
+		position: absolute;
+	}
+
+
+
+.contenedor-h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 85%;
+	margin: auto;
+	height: 34vh;
+}
+
+.contenedor-h2 h2 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 25px;
+	padding-top: 20px;
+	color: #ffffff;
+	text-shadow: 1px 1px 2px black;
+}
+
+.contenedor-btn {
+	height: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-main {
+	cursor: pointer;
+	background-color: #00913c;
+	width: 85%;
+	border: solid 2px;
+	border-color: yellow;
+	border-radius: 25px;
+	padding: 10px;
+	text-align: center;
+	width: 85%;
+	max-width: 400px;
+	
+}
+
+.btn-sup {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	margin-top: -10px;
+}
+
+.btn-sup p {
+	font-size: 20px;
+	margin: 0 auto -15px;
+
+}
+
+.btn-sup .svg {
+	width: 5rem;
+	vertical-align: middle;
+	margin-left: -20px;
+}
+
+.btn-inf {
+}
+
+.btn-inf p {
+	font-size: 25px;
+	font-weight: bold;
+	color: #fbf117;
+	margin: 0;
+
+}
+
+.main-inferior {
+	background-color: #00913c;
+	height: 25vh;
+}
+
+.contenedor-p {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-p p {
+	margin: 0;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	
+
+}
+
+.contenedor-p p span {
+	color: #fbf117;
+	font-weight: bold;
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+
+	.main-grid {
+		width: 80%;
+		
+		height: auto;
+		margin: 0 auto;
+	}
+		
+	.contenedor-h2 {
+		height: auto;
+	}
+
+	.contenedor-btn {
+		height: auto;
+	}
+
+	.contenedor-h2 h2 {
+		text-align: center;	
+		font-size: 48px;
+		line-height: 72px;
+	}
+	
+	.side-right {
+		position: relative;
+	}
+
+	.img-atras {
+		margin-top: 40px;
+		position: absolute;
+		right: 0;
+		background-image: url("../img/atras.jpg");
+		background-size: cover;
+		border: solid 2px;
+		border-color: black;
+		border-radius: 23px;
+		width: 25vw;
+		height: 0;
+		padding-top: 25vw;
+	}
+
+	.img-adelante {
+		margin-top: 40px;
+		position: absolute;
+		left: 15%;
+		top: 15%;	
+		background-image: url("../img/adelante.jpg");
+		background-size: cover;
+		border: solid 2px;
+		border-color: black;
+		border-radius: 23px;
+		width: 25vw;
+		height: 0;
+		padding-top: 25vw;
+	}
+
+	.contenedor-btn {
+		display: flex;
+		justify-content: right;
+
+	}
+	
+
+	.main-inferior {
+		height: auto;
+		padding: 40px 0 40px 0;
+	}
+
+	.contenedor-h2 {
+		display: flex;
+	}
+
+	.contenedor-p {
+		width: 50%;
+	}
+
+	.contenedor-p p {
+		font-size: 36px;
+		line-height: 54px;
+
+	}
+
+		.btn-main {
+		display: grid;
+		background-color: #ffffff;
+		padding: 0;
+		grid-template-columns: 1fr 1fr;
+		max-width: 70%;
+		min-width: 710px;
+		width: 70%;
+		border: none;
+		margin: 30px auto;
+	}
+
+	.btn-sup {
+		background-color: #fbf117;
+		color: #000000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		font-size: 20px !important;
+		border: solid 1px;
+		border-radius: 25px 0 0 25px;	
+		border: solid 2px;
+		border-color: #00913c;
+		color: #00913c;
+
+	}
+
+	.btn-sup p {
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 2px;
+		text-align: center;
+		font-size: 20px !important;
+		position: absolute;
+	}
+
+	.btn-sup svg {
+		width: 2.5rem!;
+		vertical-align: middle;
+		position: relative;
+	}	
+
+
+	.btn-inf {
+		background-color: #00913c;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		border: solid 2px;
+		border-color: #fbf117;
+		border-radius: 0 25px 25px 0;
+		padding: 7px 0;
+		text-align: center;
+	}
+
+	.btn-inf p {
+		font-size: 20px !important;
+	}
+	
+	.btn-main:hover .btn-sup {
+		background-color: #00913c;
+		color: #fbf117;
+		border-color: #fbf117;
+
+	}
+
+	.btn-main:hover .svg {
+		fill: #fbf117; 
+	}
+
+	.btn-main:hover .btn-inf {
+		background-color: #fbf117;
+		border-color: #00913c;
+		}
+
+	.btn-main:hover .btn-inf p {
+		color: #00913c;
+		}
+
+
+	.svg {
+		fill: #00913c;
+		width: 50px;
+	}
+
+
+
+}
+
+
+
+
+
+/* extra small */
+
+@media (max-width: 402px) {
+
+
+
+	.btn-main {
+		padding: 0;
+		margin-top. 10px;
+	}
+	.btn-sup p {
+		font-size: 13px;
+		
+	}
+
+	.btn-inf p {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+}

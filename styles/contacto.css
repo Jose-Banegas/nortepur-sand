@@ -1,0 +1,128 @@
+.container-form {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.form-p {
+	color: #045827;
+	font-size: 20px;
+	text-align: center;
+}
+
+.form-col-1 h3 {
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline #00913c;
+	text-decoration-thickness: 2px;
+}
+
+.p-consulta {
+	color: #00240F;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+
+input {
+	width: 100%;
+
+
+
+}
+
+textarea {
+	width: 100%;
+	font-size: 1.3rem;
+	padding: 15px;
+	border-radius: 25px;
+	border: solid 2px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f0f0f0;
+
+
+}
+
+.submit {
+	background: white;
+	border: solid 3px;
+	border-color: #00913c;
+	border-radius: 23px;
+	width: 100%;
+	padding: 5px;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+form p {
+	color: red;
+	font-size: 12px;
+	padding: 0;
+	text-align: center;
+	font-weight: 700;
+	display: inline;
+}
+
+/* Desktop */
+
+@media (min-width: 768px) {
+	.container-col {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 40px;
+		margin-top: 72px;
+		width: 85%;
+		margin: 72px auto;
+	}
+
+	.container-form-p {
+		width: 50%;
+		margin: 0px auto;
+	}
+
+	.form-p {
+		font-size: 36px;
+		line-height: 54px;
+	}
+
+	.form-col-1 h3 {
+		text-align: left;
+		font-size: 36px;
+	}
+
+	.form-col-1 p {
+		text-align: left;
+		font-size: 24px;
+		line-height: 40.32px;
+	}
+
+	.form-sup {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 40px;
+		margin-bottom: 25px;
+	}
+
+	.form-side {
+		display: block;
+	}
+	
+	.container-button {
+		display: flex;
+		justify-content: right;
+		border: solid 2px;
+	}
+
+	.submit {
+		width: 60%;
+	}
+}
+
+.wsp {
+	vertical-align: middle;
+	margin-right: 3px;
+}

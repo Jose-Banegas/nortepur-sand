@@ -1,0 +1,40 @@
+/* Este es el único componente que empece a configurar los estilos desde el desktop y despues mobile (al revés), porque, bueno, es una barra. */
+
+footer {
+	background-color: #050033;
+	padding: 0;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+footer p {
+	margin: 0;
+	text-align: center;
+	color: #426184;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+footer p span {
+	color: white;
+}
+
+footer p a {
+	color: #426184;
+}
+
+footer p a img {
+	width: 20px;
+	margin-top: 4px;
+}
+/* Mobile */
+
+@media (max-width: 1023px) {
+	height: 36px;
+}
+
+

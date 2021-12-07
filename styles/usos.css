@@ -1,0 +1,161 @@
+.container-usos {
+width: 80%;
+margin: 20px auto;
+margin-bottom: 0;
+
+}
+
+.container-usos-col-1 {
+	background-color: #00913C;
+}
+
+.container-usos-col-1 h2 {
+	color: black;
+	text-shadow: 1px 1px #ffffff;
+	font-weight: 700;
+	font-size: 43px;
+	text-align: center;
+}
+
+.img-uso {
+	margin: 0 auto;
+	width: 80%;
+	height: 0;
+	padding-top: 80%;
+	border-radius: 25px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.ul-usos {
+	padding: 0;
+	margin-bottom: 0;
+}
+.li-uso {
+	
+	list-style: none;
+}
+
+.li-uso button {
+	color: white;
+	background-color: #00913C;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+	border-radius: 30px;
+	min-width: 100%;
+	padding: 6px;
+	font-size: 17px;
+	margin-bottom: 9px;
+	font-weight: 500;
+	cursor: pointer;
+	
+}
+
+.container-usos-col-2 {
+	background-color: #fffa81;
+	padding: 15px;
+	
+}
+
+.linea-verde {
+	margin: 35px auto;
+	width: 85%;
+	height: 7px;
+	background-color: green;
+	border-radius: 3px;
+}
+
+.container-img-exp {
+	margin: 0 auto;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	row-gap: 40px;
+}
+
+.container-img-exp img {
+
+	margin: 0 auto;
+}
+
+.linea-amarilla {
+	margin: 35px auto;
+	width: 85%;
+	height: 7px;
+	background-color: #FBF117;
+	border-radius: 3px;
+}
+
+
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+	.section3 {
+	background-color: #00913C;
+padding: 50px 0;
+
+	}
+
+.container-section-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 85%;
+	margin: 0 auto;
+
+
+}
+
+.container-usos-col-2 {
+	background-color: #00913C;
+
+}
+
+.ul-usos {
+	padding-left: 15%;
+}
+
+.li-uso button {
+	color: white;
+	background-color: #00913C;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+	border-radius: 30px;
+	padding: 7px 30px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-align: left;
+	min-width: 10%;
+	
+}
+
+.img-uso {
+	width: 100%;
+	height: 0;
+	padding-top: 100%;
+}
+
+.container-img-exp {
+	margin-top: 36px;
+	width: 85%;
+	justify-content: space-between;
+	display: flex;
+}
+
+.container-img-exp img {
+	width: 30%;
+}
+
+.linea-verde {
+	display: none;
+}
+
+.linea-amarilla {
+	display: none;
+}
+
+}
+
+
+
