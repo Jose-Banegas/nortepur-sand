@@ -6,6 +6,11 @@ const menu = document.getElementById("menu");
 const navbarItems = document.getElementById("navbar-items");
 const ulNav = document.getElementById("ul-nav");
 const navTop = document.getElementById("nav-top");
+const navOffUsos = document.getElementById("navOffUsos");
+const navOffContacto = document.getElementById("navOffContacto");
+
+const usos = document.getElementById("usos");
+const consulta = document.getElementById("consulta");
 //Menu items
 const menuItems = document.createElement("div");
 menuItems.style.height = "355px";
@@ -45,3 +50,17 @@ window.addEventListener('resize', function() {
 	}
 })
 
+//Guardar al clickear alguno de los links que hacen scroll
+
+navOffUsos.onclick = function() {
+	usos.scrollIntoView();
+	navbarItems.style.display = "none",
+	posible = true
+}
+
+navOffContacto.onclick = function() {
+	consulta.scrollIntoView();
+	navbarItems.style.display = "none";
+	posible = true;
+
+}

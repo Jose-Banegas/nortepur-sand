@@ -1,4 +1,4 @@
-/* Fix colores de los anchor */
+/* Fix colores del anchor y btn */
 
 a {
 	color: white;
@@ -8,10 +8,21 @@ a {
 a:hover {
 	text-decoration: none;
 	font-weight: bold;
-	color: yellow;
+	color: #fbf117;
 }
-	
 
+
+.nav-btn-scroll {
+	color: white;
+	border: none;
+	background-color: #00913c;
+}
+
+.nav-btn-scroll:hover {
+	color: yellow;
+	cursor: pointer;
+	font-weight: bold;
+}
 
 /* Desktop */
 
